@@ -1,0 +1,321 @@
+body {
+    height: 100vh;
+    background-color: #50C878;
+}    
+.search-find {
+    background-color: #006241; 
+    padding: 10px 10px; 
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+.show-results {
+    background-color: #006241; 
+    padding: 10px 10px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    font-family: 'Roboto', sans-serif;
+}
+.title-mid {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.title-top {
+    max-width: 800px;
+    margin: 20px auto 0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container { 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.student-info {
+    background-color: #f8f9fa;
+    border: 7px solid #ccc;
+    padding: 15px;
+    border-radius: 30px;
+    max-width: 280px;
+    float: right;
+    margin-right: -215px; 
+    margin-top: 20px; 
+    font-family: 'Roboto', sans-serif;
+}
+.filter-container {
+    margin-bottom: 20px;
+}
+.year-sem {
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.filter-container select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.filter-container input[type="submit"] {
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.filter-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.search-container .input-group {
+    margin-bottom: 20px;
+}
+.search-container .form-control {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+.search-container .btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.table th {
+    background-color: #f2f2f2;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f7f7f7;
+}
+.clear-btn {
+    margin-top: 20px;
+}
+.clear-btn input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.clear-btn input[type="submit"]:hover {
+    background-color: #c82333;
+}
+.logo1 {
+    position: absolute;
+    top: -150px;
+    width: 50%; 
+    transform: scale(0.3); 
+    left: -5cm;
+}
+.colorborder {
+    position: absolute;
+    top: -20px;
+    width: 70%;
+    transform: scale(0.5);
+    left: -7cm;
+}
+.colorborder2 {
+    position: absolute;
+    top: -20px;
+    width: 70%;
+    transform: scale(0.5);
+    left: 5cm;
+}
+.colorborder3 {
+    position: absolute;
+    top: -20px;
+    width: 70%;
+    transform: scale(0.5);
+    right: -7cm;
+}
+.colorborder4 {
+    position: absolute;
+    top: -250px;
+    left: -25px;
+    width: 80px;
+    transform: scale(0.5);
+}
+.colorborder5 {
+    position: absolute;
+    bottom: -800px;
+    left: -25px;
+    width: 80px;
+    transform: scale(0.5);
+}
+.colorborder6 {
+    position: absolute;
+    bottom: -810px;
+    right: -25px;
+    width: 80px;
+    transform: scale(0.5)
+}
+.colorborder7 {
+    position: absolute;
+    bottom: -250px;
+    right: -25px;
+    width: 80px;
+    transform: scale(0.5)
+}
+.colorborder8 {
+    position: absolute;
+    bottom: -1300px;
+    right: -25px;
+    width: 80px;
+    transform: scale(0.5)
+}
+.colorborder9 {
+    position: absolute;
+    bottom: -1300px;
+    left: -25px;
+    width: 80px;
+    transform: scale(0.5);
+}
+.table-searchbar {
+    
+}
+     .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .result-item {
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-family: 'Roboto', sans-serif;
+        }
+        .clear-btn {
+            margin-top: 20px;
+        }
+        .clear-btn input[type="submit"] {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .clear-btn input[type="submit"]:hover {
+            background-color: #c82333;
+        }
+        body {
+            height: 100vh;
+            background-color: #50C878;
+        }
+        .logo1 {
+            position: absolute;
+            top: -150px;
+            width: 50%; 
+            transform: scale(0.3); 
+            left: -5cm;
+        }
+        .colorborder {
+            position: absolute;
+            top: -20px;
+            width: 70%;
+            transform: scale(0.5);
+            left: -7cm;
+        }
+        .colorborder2 {
+            position: absolute;
+            top: -20px;
+            width: 70%;
+            transform: scale(0.5);
+            left: 5cm;
+        }
+        .colorborder3 {
+            position: absolute;
+            top: -20px;
+            width: 70%;
+            transform: scale(0.5);
+            right: -7cm;
+        }
+        .colorborder4 {
+            position: absolute;
+            top: -250px;
+            left: -25px;
+            width: 80px;
+            transform: scale(0.5);
+        }
+        .colorborder5 {
+            position: absolute;
+            bottom: -800px;
+            left: -25px;
+            width: 80px;
+            transform: scale(0.5);
+        }
+        .colorborder6 {
+            position: absolute;
+            bottom: -810px;
+            right: -25px;
+            width: 80px;
+            transform: scale(0.5)
+        }
+        .colorborder7 {
+            position: absolute;
+            bottom: -250px;
+            right: -25px;
+            width: 80px;
+            transform: scale(0.5)
+        }
+        .colorborder8 {
+            position: absolute;
+            bottom: -1300px;
+            right: -25px;
+            width: 80px;
+            transform: scale(0.5)
+        }
+        .colorborder9 {
+            position: absolute;
+            bottom: -1300px;
+            left: -25px;
+            width: 80px;
+            transform: scale(0.5);  
+        }
+        .colorborder10 {
+            position: absolute;
+            bottom: -1800px;
+            left: -25px;
+            width: 80px;
+            transform: scale(0.5)
+        }
+        .colorborder11 {
+            position: absolute;
+            bottom: -2350px;
+            left: -25px;
+            width: 80px;
+            transform: scale(0.5)  
+        }
+        .colorborder12 {
+            position: absolute;
+            bottom: -1800px;
+            right: -25px;
+            width: 80px;
+            transform: scale(0.5)
+        }
+        .colorborder13 {
+            position: absolute;
+            bottom: -2350px;
+            right: -25px;
+            width: 80px;
+            transform: scale(0.5)
+        }
